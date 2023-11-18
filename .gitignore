@@ -1,0 +1,8 @@
+logs/*
+distr-sched
+distr-sched-seq
+distr-sched-debug1
+distr-sched-debug2
+runner_solution.cpp
+compile_commands.json
+*.o
