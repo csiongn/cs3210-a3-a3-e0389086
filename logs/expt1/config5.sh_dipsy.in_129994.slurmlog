@@ -1,0 +1,74 @@
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 01:10:17 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 01:10:17 AM +08 2023
+Job is running on soctf-pdc-006.d1.comp.nus.edu.sg, started at Sun Nov 26 01:10:17 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 01:10:17 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 01:10:17 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 01:10:17 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 01:10:17 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 01:10:17 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 01:10:17 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 01:10:17 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 01:10:17 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 01:10:17 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 01:10:17 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 01:10:17 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 01:10:17 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 01:10:17 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 01:10:17 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 01:10:17 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 01:10:17 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 01:10:17 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 01:10:17 AM +08 2023
+Job is running on soctf-pdc-006.d1.comp.nus.edu.sg, started at Sun Nov 26 01:10:17 AM +08 2023
+Job is running on soctf-pdc-006.d1.comp.nus.edu.sg, started at Sun Nov 26 01:10:17 AM +08 2023
+Job is running on soctf-pdc-006.d1.comp.nus.edu.sg, started at Sun Nov 26 01:10:17 AM +08 2023
+Job is running on soctf-pdc-006.d1.comp.nus.edu.sg, started at Sun Nov 26 01:10:17 AM +08 2023
+Job is running on soctf-pdc-006.d1.comp.nus.edu.sg, started at Sun Nov 26 01:10:17 AM +08 2023
+Job is running on soctf-pdc-006.d1.comp.nus.edu.sg, started at Sun Nov 26 01:10:17 AM +08 2023
+Job is running on soctf-pdc-006.d1.comp.nus.edu.sg, started at Sun Nov 26 01:10:17 AM +08 2023
+Job is running on soctf-pdc-006.d1.comp.nus.edu.sg, started at Sun Nov 26 01:10:17 AM +08 2023
+Job is running on soctf-pdc-006.d1.comp.nus.edu.sg, started at Sun Nov 26 01:10:17 AM +08 2023
+Running make to compile your code...
+make: Nothing to be done for 'all'.
+Created temporary file on soctf-pdc-004.d1.comp.nus.edu.sg for job output evaluation after this run at /tmp/129994.txt
+Running...
+========================== START EXECUTION METRIC BLOCK FOR VERIFICATION ==========================
+Rank 0: 0ms of 41892ms (0.00000) - completed: 0 0 0 0 0
+Rank 1: 38239ms of 41902ms (0.91258) - completed: 24 26 19 19 21
+Rank 2: 37740ms of 41902ms (0.90067) - completed: 19 19 23 19 23
+Rank 3: 34545ms of 41902ms (0.82442) - completed: 28 18 18 17 12
+Rank 4: 35359ms of 41903ms (0.84383) - completed: 15 26 26 19 19
+Rank 5: 34551ms of 41903ms (0.82455) - completed: 16 16 19 16 19
+Rank 6: 34738ms of 41903ms (0.82901) - completed: 30 28 18 15 28
+Rank 7: 34150ms of 41903ms (0.81498) - completed: 27 27 21 26 27
+Rank 8: 33712ms of 41892ms (0.80474) - completed: 25 30 18 25 20
+Rank 9: 34398ms of 41902ms (0.82092) - completed: 27 8 17 16 16
+Rank 10: 39718ms of 41892ms (0.94810) - completed: 20 21 21 21 31
+Rank 11: 33768ms of 41892ms (0.80607) - completed: 23 26 20 21 25
+Rank 12: 34207ms of 41892ms (0.81655) - completed: 19 18 19 19 12
+Rank 13: 35483ms of 41892ms (0.84701) - completed: 21 17 22 15 13
+Rank 14: 34805ms of 41892ms (0.83083) - completed: 22 31 19 22 28
+Rank 15: 34964ms of 41892ms (0.83462) - completed: 26 24 19 22 21
+Rank 16: 33998ms of 41882ms (0.81176) - completed: 19 21 16 17 15
+Rank 17: 33538ms of 41891ms (0.80060) - completed: 14 20 18 17 16
+Rank 18: 33551ms of 41891ms (0.80091) - completed: 35 19 22 20 13
+Rank 19: 33441ms of 41891ms (0.79829) - completed: 27 13 19 16 23
+Rank 20: 33534ms of 41882ms (0.80068) - completed: 21 17 23 20 27
+Rank 21: 35291ms of 41882ms (0.84263) - completed: 19 18 20 17 19
+Rank 22: 33412ms of 41882ms (0.79777) - completed: 16 25 19 21 16
+Rank 23: 35450ms of 41882ms (0.84643) - completed: 25 23 19 15 22
+Rank 24: 35063ms of 41882ms (0.83719) - completed: 13 14 19 10 11
+Rank 25: 33412ms of 41882ms (0.79777) - completed: 24 29 19 32 29
+Rank 26: 33357ms of 41882ms (0.79645) - completed: 16 13 20 13 13
+Rank 27: 34082ms of 41882ms (0.81376) - completed: 16 13 25 23 12
+Rank 28: 33396ms of 41882ms (0.79738) - completed: 24 14 17 21 18
+Rank 29: 34185ms of 41882ms (0.81622) - completed: 22 21 18 18 13
+Overall: 1006087ms of 1256731ms (0.80056) - completed: 633 595 573 552 562
+FINAL RUNTIME: 41892ms
+========================== END EXECUTION METRIC BLOCK FOR VERIFICATION ==========================
+Evaluating your results...
+>>> check.py running tests on your output against tests/dipsy_16_1_4_0.25.out as a quick validation of your program.
+>>> Note that check.py is not guaranteed to be complete or entirely correct! We will not intentionally include any errors, however.
+
+✗✗✗ check.py FAILURE: Expected output file tests/dipsy_16_1_4_0.25.out not found.
+✗✗✗ ADVICE: You may want to run the command `./generate_test_output.sh 16 1 4 0.25 tests/dipsy.in` to generate the expected output file.

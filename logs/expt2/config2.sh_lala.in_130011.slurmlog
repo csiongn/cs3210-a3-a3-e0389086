@@ -1,0 +1,54 @@
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:48 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:48 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:48 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:48 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:48 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:48 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:48 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:48 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:48 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:48 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:48 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:48 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:48 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:48 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:48 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:48 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:48 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:48 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:48 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:48 AM +08 2023
+Running make to compile your code...
+make: Nothing to be done for 'all'.
+Created temporary file on soctf-pdc-004.d1.comp.nus.edu.sg for job output evaluation after this run at /tmp/130011.txt
+Running...
+========================== START EXECUTION METRIC BLOCK FOR VERIFICATION ==========================
+Rank 0: 0ms of 7564ms (0.00000) - completed: 0 0 0 0 0
+Rank 1: 6777ms of 7574ms (0.89477) - completed: 4 2 4 5 4
+Rank 2: 5481ms of 7574ms (0.72366) - completed: 2 2 3 2 3
+Rank 3: 5888ms of 7574ms (0.77740) - completed: 2 1 3 1 1
+Rank 4: 4829ms of 7574ms (0.63758) - completed: 4 3 2 1 4
+Rank 5: 7054ms of 7584ms (0.93012) - completed: 10 5 2 6 3
+Rank 6: 5380ms of 7574ms (0.71032) - completed: 6 3 4 3 3
+Rank 7: 5318ms of 7584ms (0.70121) - completed: 2 0 2 1 0
+Rank 8: 7489ms of 7563ms (0.99022) - completed: 3 4 4 6 2
+Rank 9: 5468ms of 7574ms (0.72194) - completed: 4 4 3 3 2
+Rank 10: 7362ms of 7563ms (0.97342) - completed: 6 1 2 4 0
+Rank 11: 4990ms of 7564ms (0.65970) - completed: 0 2 2 0 1
+Rank 12: 4688ms of 7563ms (0.61986) - completed: 1 1 2 2 2
+Rank 13: 5652ms of 7573ms (0.74634) - completed: 3 1 5 3 2
+Rank 14: 4466ms of 7563ms (0.59051) - completed: 4 4 2 6 2
+Rank 15: 6112ms of 7573ms (0.80708) - completed: 5 4 2 3 7
+Rank 16: 4391ms of 7563ms (0.58059) - completed: 5 5 4 3 5
+Rank 17: 6472ms of 7563ms (0.85575) - completed: 1 0 4 1 0
+Rank 18: 4457ms of 7563ms (0.58932) - completed: 5 13 2 11 5
+Rank 19: 5750ms of 7564ms (0.76018) - completed: 0 1 3 0 0
+Overall: 108024ms of 151391ms (0.71354) - completed: 67 56 55 61 46
+FINAL RUNTIME: 7564ms
+========================== END EXECUTION METRIC BLOCK FOR VERIFICATION ==========================
+Evaluating your results...
+>>> check.py running tests on your output against tests/lala_5_1_4_0.25.out as a quick validation of your program.
+>>> Note that check.py is not guaranteed to be complete or entirely correct! We will not intentionally include any errors, however.
+
+✗✗✗ check.py FAILURE: Expected output file tests/lala_5_1_4_0.25.out not found.
+✗✗✗ ADVICE: You may want to run the command `./generate_test_output.sh 5 1 4 0.25 tests/lala.in` to generate the expected output file.

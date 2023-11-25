@@ -1,0 +1,54 @@
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 12:48:03 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 12:48:03 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 12:48:03 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 12:48:03 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 12:48:03 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 12:48:03 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 12:48:03 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 12:48:03 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 12:48:03 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 12:48:03 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 12:48:03 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 12:48:03 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 12:48:03 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 12:48:03 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 12:48:03 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 12:48:03 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 12:48:03 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 12:48:03 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 12:48:03 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 12:48:03 AM +08 2023
+Running make to compile your code...
+make: Nothing to be done for 'all'.
+Created temporary file on soctf-pdc-004.d1.comp.nus.edu.sg for job output evaluation after this run at /tmp/129988.txt
+Running...
+========================== START EXECUTION METRIC BLOCK FOR VERIFICATION ==========================
+Rank 0: 0ms of 58743ms (0.00000) - completed: 0 0 0 0 0
+Rank 1: 56080ms of 58753ms (0.95450) - completed: 28 29 33 19 29
+Rank 2: 54660ms of 58753ms (0.93034) - completed: 40 44 36 48 30
+Rank 3: 52401ms of 58753ms (0.89189) - completed: 40 29 29 29 28
+Rank 4: 53390ms of 58753ms (0.90872) - completed: 22 25 34 23 21
+Rank 5: 52080ms of 58763ms (0.88627) - completed: 22 27 27 23 36
+Rank 6: 52574ms of 58753ms (0.89483) - completed: 44 42 24 40 43
+Rank 7: 52419ms of 58763ms (0.89204) - completed: 33 39 30 37 28
+Rank 8: 56614ms of 58743ms (0.96376) - completed: 41 48 30 36 38
+Rank 9: 53506ms of 58753ms (0.91069) - completed: 27 23 31 27 29
+Rank 10: 52621ms of 58743ms (0.89578) - completed: 23 25 27 22 22
+Rank 11: 54082ms of 58743ms (0.92065) - completed: 37 29 31 31 27
+Rank 12: 51677ms of 58743ms (0.87971) - completed: 31 23 32 30 31
+Rank 13: 52726ms of 58753ms (0.89742) - completed: 32 27 27 20 22
+Rank 14: 51523ms of 58743ms (0.87709) - completed: 25 33 31 32 21
+Rank 15: 51815ms of 58753ms (0.88191) - completed: 41 33 28 21 38
+Rank 16: 52179ms of 58743ms (0.88826) - completed: 27 23 29 21 27
+Rank 17: 52274ms of 58743ms (0.88988) - completed: 45 28 31 31 28
+Rank 18: 51566ms of 58743ms (0.87782) - completed: 50 40 34 45 37
+Rank 19: 51536ms of 58743ms (0.87731) - completed: 25 28 29 17 27
+Overall: 1005723ms of 1174980ms (0.85595) - completed: 633 595 573 552 562
+FINAL RUNTIME: 58743ms
+========================== END EXECUTION METRIC BLOCK FOR VERIFICATION ==========================
+Evaluating your results...
+>>> check.py running tests on your output against tests/dipsy_16_1_4_0.25.out as a quick validation of your program.
+>>> Note that check.py is not guaranteed to be complete or entirely correct! We will not intentionally include any errors, however.
+
+✗✗✗ check.py FAILURE: Expected output file tests/dipsy_16_1_4_0.25.out not found.
+✗✗✗ ADVICE: You may want to run the command `./generate_test_output.sh 16 1 4 0.25 tests/dipsy.in` to generate the expected output file.

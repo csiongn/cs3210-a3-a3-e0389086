@@ -1,0 +1,54 @@
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:57 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:57 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:57 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:57 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:57 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:57 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:57 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:57 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:57 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:57 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:57 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:57 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:57 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:57 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:57 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:57 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:57 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:57 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:57 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 01:03:57 AM +08 2023
+Running make to compile your code...
+make: Nothing to be done for 'all'.
+Created temporary file on soctf-pdc-004.d1.comp.nus.edu.sg for job output evaluation after this run at /tmp/130012.txt
+Running...
+========================== START EXECUTION METRIC BLOCK FOR VERIFICATION ==========================
+Rank 0: 0ms of 28716ms (0.00000) - completed: 0 0 0 0 0
+Rank 1: 26833ms of 28726ms (0.93410) - completed: 26 20 18 20 19
+Rank 2: 27057ms of 28726ms (0.94190) - completed: 12 8 15 8 17
+Rank 3: 26571ms of 28726ms (0.92498) - completed: 15 9 15 11 9
+Rank 4: 27428ms of 28727ms (0.95478) - completed: 18 25 18 16 10
+Rank 5: 27419ms of 28731ms (0.95434) - completed: 22 20 13 17 18
+Rank 6: 26255ms of 28727ms (0.91395) - completed: 12 23 13 15 18
+Rank 7: 26407ms of 28728ms (0.91921) - completed: 19 19 16 14 10
+Rank 8: 27491ms of 28716ms (0.95734) - completed: 14 20 13 18 19
+Rank 9: 26370ms of 28727ms (0.91795) - completed: 21 19 16 26 20
+Rank 10: 27283ms of 28716ms (0.95010) - completed: 9 12 12 10 11
+Rank 11: 26394ms of 28716ms (0.91914) - completed: 16 13 16 9 15
+Rank 12: 26305ms of 28716ms (0.91604) - completed: 9 11 17 20 17
+Rank 13: 26610ms of 28721ms (0.92650) - completed: 31 21 20 23 15
+Rank 14: 27477ms of 28716ms (0.95685) - completed: 18 18 13 18 19
+Rank 15: 26240ms of 28718ms (0.91371) - completed: 17 13 12 12 26
+Rank 16: 26148ms of 28716ms (0.91057) - completed: 17 15 17 17 12
+Rank 17: 27228ms of 28716ms (0.94818) - completed: 22 17 15 20 14
+Rank 18: 28449ms of 28716ms (0.99070) - completed: 9 17 16 21 12
+Rank 19: 26552ms of 28716ms (0.92464) - completed: 20 24 16 20 21
+Overall: 510517ms of 574417ms (0.88876) - completed: 327 324 291 315 302
+FINAL RUNTIME: 28716ms
+========================== END EXECUTION METRIC BLOCK FOR VERIFICATION ==========================
+Evaluating your results...
+>>> check.py running tests on your output against tests/lala_8_1_4_0.25.out as a quick validation of your program.
+>>> Note that check.py is not guaranteed to be complete or entirely correct! We will not intentionally include any errors, however.
+
+✗✗✗ check.py FAILURE: Expected output file tests/lala_8_1_4_0.25.out not found.
+✗✗✗ ADVICE: You may want to run the command `./generate_test_output.sh 8 1 4 0.25 tests/lala.in` to generate the expected output file.

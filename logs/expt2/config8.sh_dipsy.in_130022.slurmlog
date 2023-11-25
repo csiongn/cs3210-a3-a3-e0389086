@@ -1,0 +1,34 @@
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 12:49:16 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 12:49:16 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 12:49:16 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 12:49:16 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 12:49:16 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 12:49:16 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 12:49:16 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 12:49:16 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 12:49:16 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 12:49:16 AM +08 2023
+Running make to compile your code...
+make: Nothing to be done for 'all'.
+Created temporary file on soctf-pdc-004.d1.comp.nus.edu.sg for job output evaluation after this run at /tmp/130022.txt
+Running...
+========================== START EXECUTION METRIC BLOCK FOR VERIFICATION ==========================
+Rank 0: 0ms of 106626ms (0.00000) - completed: 0 0 0 0 0
+Rank 1: 104687ms of 106616ms (0.98191) - completed: 54 62 65 60 53
+Rank 2: 103388ms of 106606ms (0.96981) - completed: 71 64 62 54 65
+Rank 3: 102723ms of 106616ms (0.96349) - completed: 72 64 67 74 70
+Rank 4: 102872ms of 106606ms (0.96497) - completed: 62 59 63 67 52
+Rank 5: 102647ms of 106615ms (0.96278) - completed: 76 75 64 65 69
+Rank 6: 104032ms of 106606ms (0.97586) - completed: 71 56 58 57 49
+Rank 7: 102396ms of 106616ms (0.96042) - completed: 72 72 68 69 80
+Rank 8: 104591ms of 106606ms (0.98110) - completed: 66 71 60 43 58
+Rank 9: 103480ms of 106615ms (0.97060) - completed: 89 72 66 63 66
+Overall: 930816ms of 1066128ms (0.87308) - completed: 633 595 573 552 562
+FINAL RUNTIME: 106626ms
+========================== END EXECUTION METRIC BLOCK FOR VERIFICATION ==========================
+Evaluating your results...
+>>> check.py running tests on your output against tests/dipsy_16_1_4_0.25.out as a quick validation of your program.
+>>> Note that check.py is not guaranteed to be complete or entirely correct! We will not intentionally include any errors, however.
+
+✗✗✗ check.py FAILURE: Expected output file tests/dipsy_16_1_4_0.25.out not found.
+✗✗✗ ADVICE: You may want to run the command `./generate_test_output.sh 16 1 4 0.25 tests/dipsy.in` to generate the expected output file.

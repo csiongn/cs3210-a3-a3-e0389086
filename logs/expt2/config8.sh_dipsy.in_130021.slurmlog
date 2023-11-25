@@ -1,0 +1,34 @@
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 12:49:07 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 12:49:07 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 12:49:07 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 12:49:07 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 12:49:07 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 12:49:07 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 12:49:07 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 12:49:07 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 12:49:07 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 12:49:07 AM +08 2023
+Running make to compile your code...
+make: Nothing to be done for 'all'.
+Created temporary file on soctf-pdc-004.d1.comp.nus.edu.sg for job output evaluation after this run at /tmp/130021.txt
+Running...
+========================== START EXECUTION METRIC BLOCK FOR VERIFICATION ==========================
+Rank 0: 0ms of 8533ms (0.00000) - completed: 0 0 0 0 0
+Rank 1: 5123ms of 8522ms (0.60115) - completed: 2 2 4 2 3
+Rank 2: 2652ms of 8522ms (0.31119) - completed: 1 2 2 2 2
+Rank 3: 2211ms of 8521ms (0.25948) - completed: 2 0 1 0 1
+Rank 4: 2881ms of 8521ms (0.33811) - completed: 0 1 2 1 0
+Rank 5: 682ms of 8521ms (0.08004) - completed: 0 0 0 0 2
+Rank 6: 3280ms of 8521ms (0.38493) - completed: 0 1 2 1 0
+Rank 7: 207ms of 8521ms (0.02429) - completed: 1 0 0 1 0
+Rank 8: 5318ms of 8521ms (0.62411) - completed: 0 1 2 0 0
+Rank 9: 4ms of 8521ms (0.00047) - completed: 0 0 0 0 1
+Overall: 22358ms of 85224ms (0.26234) - completed: 6 7 13 7 9
+FINAL RUNTIME: 8533ms
+========================== END EXECUTION METRIC BLOCK FOR VERIFICATION ==========================
+Evaluating your results...
+>>> check.py running tests on your output against tests/dipsy_8_1_4_0.25.out as a quick validation of your program.
+>>> Note that check.py is not guaranteed to be complete or entirely correct! We will not intentionally include any errors, however.
+
+✗✗✗ check.py FAILURE: Expected output file tests/dipsy_8_1_4_0.25.out not found.
+✗✗✗ ADVICE: You may want to run the command `./generate_test_output.sh 8 1 4 0.25 tests/dipsy.in` to generate the expected output file.

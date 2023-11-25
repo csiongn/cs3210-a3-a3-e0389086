@@ -1,0 +1,34 @@
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 12:51:18 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 12:51:18 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 12:51:18 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 12:51:18 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 12:51:18 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 12:51:18 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 12:51:18 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 12:51:18 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 12:51:18 AM +08 2023
+Job is running on soctf-pdc-005.d1.comp.nus.edu.sg, started at Sun Nov 26 12:51:18 AM +08 2023
+Running make to compile your code...
+make: Nothing to be done for 'all'.
+Created temporary file on soctf-pdc-004.d1.comp.nus.edu.sg for job output evaluation after this run at /tmp/130024.txt
+Running...
+========================== START EXECUTION METRIC BLOCK FOR VERIFICATION ==========================
+Rank 0: 0ms of 53441ms (0.00000) - completed: 0 0 0 0 0
+Rank 1: 52432ms of 53420ms (0.98151) - completed: 22 17 31 24 26
+Rank 2: 52357ms of 53430ms (0.97992) - completed: 25 25 35 36 32
+Rank 3: 52332ms of 53430ms (0.97945) - completed: 43 40 28 37 38
+Rank 4: 52252ms of 53430ms (0.97795) - completed: 57 64 35 41 41
+Rank 5: 52324ms of 53421ms (0.97947) - completed: 47 46 33 34 43
+Rank 6: 53338ms of 53431ms (0.99826) - completed: 21 35 36 41 27
+Rank 7: 53286ms of 53431ms (0.99729) - completed: 48 32 31 44 32
+Rank 8: 52785ms of 53431ms (0.98791) - completed: 26 26 31 17 26
+Rank 9: 52300ms of 53421ms (0.97902) - completed: 38 39 31 41 37
+Overall: 473406ms of 534286ms (0.88605) - completed: 327 324 291 315 302
+FINAL RUNTIME: 53441ms
+========================== END EXECUTION METRIC BLOCK FOR VERIFICATION ==========================
+Evaluating your results...
+>>> check.py running tests on your output against tests/lala_8_1_4_0.25.out as a quick validation of your program.
+>>> Note that check.py is not guaranteed to be complete or entirely correct! We will not intentionally include any errors, however.
+
+✗✗✗ check.py FAILURE: Expected output file tests/lala_8_1_4_0.25.out not found.
+✗✗✗ ADVICE: You may want to run the command `./generate_test_output.sh 8 1 4 0.25 tests/lala.in` to generate the expected output file.
