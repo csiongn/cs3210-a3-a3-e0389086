@@ -1,0 +1,63 @@
+Job is running on soctf-pdc-012.d1.comp.nus.edu.sg, started at Sun Nov 26 04:22:22 AM +08 2023
+Job is running on soctf-pdc-012.d1.comp.nus.edu.sg, started at Sun Nov 26 04:22:22 AM +08 2023
+Job is running on soctf-pdc-012.d1.comp.nus.edu.sg, started at Sun Nov 26 04:22:22 AM +08 2023
+Job is running on soctf-pdc-012.d1.comp.nus.edu.sg, started at Sun Nov 26 04:22:22 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 04:22:22 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 04:22:22 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 04:22:22 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 04:22:22 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 04:22:22 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 04:22:22 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 04:22:22 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 04:22:22 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 04:22:22 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 04:22:22 AM +08 2023
+Running make to compile your code...
+mpic++ -Wall -Wextra -Wpedantic -std=c++20 -O3 -DOMPI_SKIP_MPICXX -c runner.cpp -o runner.o
+runner.cpp: In function ‘void distribute_tasks(std::queue<task_t>&, int, int, params_t&)’:
+runner.cpp:21:43: warning: unused parameter ‘master_queue’ [-Wunused-parameter]
+   21 | void distribute_tasks(std::queue<task_t>& master_queue, int num_procs, int rank, params_t &params) {
+      |                       ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+runner.cpp:21:76: warning: unused parameter ‘rank’ [-Wunused-parameter]
+   21 | void distribute_tasks(std::queue<task_t>& master_queue, int num_procs, int rank, params_t &params) {
+      |                                                                        ~~~~^~~~
+runner.cpp: In function ‘void redistribute_tasks(std::queue<task_t>&, std::vector<bool>&, int, metric_t&, int&)’:
+runner.cpp:50:120: warning: unused parameter ‘stats’ [-Wunused-parameter]
+   50 | void redistribute_tasks(std::queue<task_t>& master_queue, std::vector<bool>& is_worker_ready, int num_procs, metric_t &stats, int &execution_counter) {
+      |                                                                                                              ~~~~~~~~~~^~~~~
+runner.cpp: In function ‘void receive_initial_tasks(std::queue<task_t>&, int)’:
+runner.cpp:160:65: warning: unused parameter ‘rank’ [-Wunused-parameter]
+  160 | void receive_initial_tasks(std::queue<task_t> &local_queue, int rank)
+      |                                                             ~~~~^~~~
+mpic++ -Wall -Wextra -Wpedantic -std=c++20 -O3 -DOMPI_SKIP_MPICXX main.o runner.o tasks.0.o -o distr-sched -lm
+mpic++ -Wall -Wextra -Wpedantic -std=c++20 -O3 -DOMPI_SKIP_MPICXX main.o runner.o tasks.1.o -o distr-sched-debug1 -lm
+mpic++ -Wall -Wextra -Wpedantic -std=c++20 -O3 -DOMPI_SKIP_MPICXX main.o runner.o tasks.2.o -o distr-sched-debug2 -lm
+Created temporary file on soctf-pdc-004.d1.comp.nus.edu.sg for job output evaluation after this run at /tmp/130077.txt
+Running...
++ mpirun --map-by core --bind-to core ./distr-sched 5 1 4 0.50 tests/tinkywinky.in
++ tee /tmp/130077.txt
+========================== START EXECUTION METRIC BLOCK FOR VERIFICATION ==========================
+Rank 0: 9207ms of 22584ms (0.40768) - completed: 4 5 6 4 11
+Rank 1: 14129ms of 22584ms (0.62562) - completed: 15 10 8 9 10
+Rank 2: 13222ms of 22584ms (0.58546) - completed: 16 11 8 9 12
+Rank 3: 17156ms of 22574ms (0.75999) - completed: 7 10 10 6 9
+Rank 4: 17395ms of 22574ms (0.77058) - completed: 7 12 9 12 9
+Rank 5: 15038ms of 22573ms (0.66619) - completed: 14 14 10 10 8
+Rank 6: 20091ms of 22573ms (0.89005) - completed: 3 9 10 8 3
+Rank 7: 16206ms of 22584ms (0.71759) - completed: 8 11 9 8 10
+Rank 8: 17231ms of 22584ms (0.76297) - completed: 16 13 8 12 10
+Rank 9: 17994ms of 22584ms (0.79676) - completed: 6 5 9 7 2
+Rank 10: 13867ms of 22573ms (0.61432) - completed: 20 18 16 16 12
+Rank 11: 15542ms of 22573ms (0.68852) - completed: 13 16 13 21 18
+Rank 12: 12451ms of 22573ms (0.55159) - completed: 17 16 12 11 18
+Rank 13: 15652ms of 22573ms (0.69339) - completed: 18 12 12 5 12
+Overall: 215181ms of 316090ms (0.68076) - completed: 164 162 140 138 144
+FINAL RUNTIME: 22584ms
+========================== END EXECUTION METRIC BLOCK FOR VERIFICATION ==========================
++ set +x
+Evaluating your results...
+>>> check.py running tests on your output against tests/tinkywinky_5_1_4_0.50.out as a quick validation of your program.
+>>> Note that check.py is not guaranteed to be complete or entirely correct! We will not intentionally include any errors, however.
+
+✗✗✗ check.py FAILURE: Expected output file tests/tinkywinky_5_1_4_0.50.out not found.
+✗✗✗ ADVICE: You may want to run the command `./generate_test_output.sh 5 1 4 0.50 tests/tinkywinky.in` to generate the expected output file.

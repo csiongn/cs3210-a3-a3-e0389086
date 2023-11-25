@@ -1,0 +1,45 @@
+Job is running on soctf-pdc-012.d1.comp.nus.edu.sg, started at Sun Nov 26 04:14:03 AM +08 2023
+Job is running on soctf-pdc-012.d1.comp.nus.edu.sg, started at Sun Nov 26 04:14:03 AM +08 2023
+Job is running on soctf-pdc-012.d1.comp.nus.edu.sg, started at Sun Nov 26 04:14:03 AM +08 2023
+Job is running on soctf-pdc-012.d1.comp.nus.edu.sg, started at Sun Nov 26 04:14:03 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 04:14:03 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 04:14:03 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 04:14:03 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 04:14:03 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 04:14:03 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 04:14:03 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 04:14:03 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 04:14:03 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 04:14:03 AM +08 2023
+Job is running on soctf-pdc-004.d1.comp.nus.edu.sg, started at Sun Nov 26 04:14:03 AM +08 2023
+Running make to compile your code...
+make: Nothing to be done for 'all'.
+Created temporary file on soctf-pdc-004.d1.comp.nus.edu.sg for job output evaluation after this run at /tmp/130074.txt
+Running...
++ tee /tmp/130074.txt
++ mpirun --map-by core --bind-to core ./distr-sched 10 1 4 0.25 tests/tinkywinky.in
+========================== START EXECUTION METRIC BLOCK FOR VERIFICATION ==========================
+Rank 0: 0ms of 54790ms (0.00000) - completed: 0 0 0 0 0
+Rank 1: 51633ms of 54790ms (0.94238) - completed: 39 25 28 27 28
+Rank 2: 50087ms of 54790ms (0.91416) - completed: 34 36 27 31 28
+Rank 3: 51008ms of 54770ms (0.93131) - completed: 22 28 28 30 26
+Rank 4: 50504ms of 54770ms (0.92211) - completed: 30 28 25 23 24
+Rank 5: 50288ms of 54770ms (0.91817) - completed: 35 28 28 41 32
+Rank 6: 50085ms of 54770ms (0.91446) - completed: 25 26 25 28 24
+Rank 7: 50290ms of 54790ms (0.91787) - completed: 19 29 27 22 21
+Rank 8: 54691ms of 54790ms (0.99819) - completed: 23 29 33 26 26
+Rank 9: 51982ms of 54790ms (0.94875) - completed: 21 23 27 25 31
+Rank 10: 50313ms of 54770ms (0.91862) - completed: 48 50 42 51 47
+Rank 11: 50296ms of 54770ms (0.91831) - completed: 48 40 49 53 43
+Rank 12: 49977ms of 54770ms (0.91249) - completed: 46 54 46 42 46
+Rank 13: 50777ms of 54770ms (0.92710) - completed: 55 46 44 53 49
+Overall: 661931ms of 766900ms (0.86313) - completed: 445 442 429 452 425
+FINAL RUNTIME: 54790ms
+========================== END EXECUTION METRIC BLOCK FOR VERIFICATION ==========================
++ set +x
+Evaluating your results...
+>>> check.py running tests on your output against tests/tinkywinky_10_1_4_0.25.out as a quick validation of your program.
+>>> Note that check.py is not guaranteed to be complete or entirely correct! We will not intentionally include any errors, however.
+
+✗✗✗ check.py FAILURE: Expected output file tests/tinkywinky_10_1_4_0.25.out not found.
+✗✗✗ ADVICE: You may want to run the command `./generate_test_output.sh 10 1 4 0.25 tests/tinkywinky.in` to generate the expected output file.
